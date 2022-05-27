@@ -1,0 +1,17 @@
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt install imwheel
+bash <(curl -s http://www.nicknorton.net/mousewheel.sh)
+
+ sudo chmod +x xampp-linux-x64-8.1.6-0-installer.run
+ sudo ./xampp-linux-x64-8.1.6-0-installer.run 
+
+
+sudo dpkg -i code.deb
+sudo dpkg -i google.deb
+sudo dpkg -i slack.deb
+sudo dpkg -i skype.deb
+sudo dpkg -i zoom.deb
+
+sudo cp siyam-rupali.zip  /usr/share/fonts/
+sudo unzip siyam-rupali.zip 
