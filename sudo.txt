@@ -3,8 +3,8 @@ sudo apt-get upgrade -y
 sudo apt install imwheel
 bash <(curl -s http://www.nicknorton.net/mousewheel.sh)
 
- sudo chmod +x xampp-linux-x64-8.1.6-0-installer.run
- sudo ./xampp-linux-x64-8.1.6-0-installer.run 
+sudo chmod +x xampp-linux-x64-8.1.6-0-installer.run
+sudo ./xampp-linux-x64-8.1.6-0-installer.run 
 
 
 sudo dpkg -i code.deb
